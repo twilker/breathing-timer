@@ -16,8 +16,8 @@ class ExceriseRunScreen extends ConsumerStatefulWidget {
 
 class _ExceriseRunScreenState extends ConsumerState<ExceriseRunScreen> {
   final AudioPlayer audioPlayer = AudioPlayer();
-  final String inhaleSoundPath = 'inhale.mp3';
-  final String exhaleSoundPath = 'exhale.mp3';
+  final String inhaleSoundPath = 'assets/inhale.wav';
+  final String exhaleSoundPath = 'assets/exhale.wav';
 
   @override
   void dispose() {
